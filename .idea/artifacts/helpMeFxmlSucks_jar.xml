@@ -2,7 +2,7 @@
   <artifact type="jar" name="helpMeFxmlSucks:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/helpMeFxmlSucks_jar</output-path>
     <root id="archive" name="helpMeFxmlSucks.jar">
-      <element id="module-output" name="gilgemhw3gui" />
+      <element id="module-output" name="CodeLineCounter" />
     </root>
   </artifact>
 </component>

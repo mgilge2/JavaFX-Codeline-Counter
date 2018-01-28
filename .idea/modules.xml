@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gilgemhw3gui.iml" filepath="$PROJECT_DIR$/gilgemhw3gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeLineCounter.iml" filepath="$PROJECT_DIR$/CodeLineCounter.iml" />
     </modules>
   </component>
 </project>
