@@ -329,6 +329,7 @@ public class Controller
                         count = count + 1;
                     }
                 }
+                fin.close();
             }
         }
         catch (FileNotFoundException e)
