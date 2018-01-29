@@ -284,7 +284,7 @@ public class Controller
 
 
 
-    public void genFileList(String fileName)  //build a list of all files with a directory and subdirectories, should implement FileFilter here passed in as parameter, could also set up helper functions here depending
+    private void genFileList(String fileName)  //build a list of all files with a directory and subdirectories, should implement FileFilter here passed in as parameter, could also set up helper functions here depending
     {
         File file = new File(fileName);
         File [] list = file.listFiles();
@@ -311,7 +311,7 @@ public class Controller
         }
     }
 
-    public int countLinesOfCode(ArrayList<File> fileList)
+    private int countLinesOfCode(ArrayList<File> fileList)
     {
         int count = 0;
 

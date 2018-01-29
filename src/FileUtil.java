@@ -57,7 +57,7 @@ public class FileUtil
         return nameList;
     }
 
-    public ArrayList<File> genFileList(String fileName, String ext)  //build a list of all files with a directory and subdirectories, should implement FileFilter here passed in as parameter, could also set up helper functions here depending
+    private ArrayList<File> genFileList(String fileName, String ext)  //build a list of all files with a directory and subdirectories, should implement FileFilter here passed in as parameter, could also set up helper functions here depending
     {
         ArrayList<File> fileList = new ArrayList<File>();
         File file = new File(fileName);
